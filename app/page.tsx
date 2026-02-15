@@ -217,7 +217,7 @@ export default function Home() {
           </a>
 
           <a
-            href="https://www.linkedin.com/in/ilia-alenabi/"
+            href="https://www.linkedin.com/in/iliall/"
             target="_blank"
             rel="noopener noreferrer"
             className={`text-sm md:text-base flex items-center gap-2 no-underline transition-opacity duration-300 ${colors.linkHover}`}
