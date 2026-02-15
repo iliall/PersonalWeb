@@ -4,7 +4,7 @@ import { useState } from 'react';
 import Image from 'next/image';
 import DitherPattern from '@/components/DitherPattern';
 import ThemeSwitcher, { Theme } from '@/components/ThemeSwitcher';
-import { Cerebras, Huawei, Cohere } from '@lobehub/icons';
+import { Cerebras, Huawei } from '@lobehub/icons';
 
 export default function Home() {
   const [theme, setTheme] = useState<Theme>('dark');
@@ -107,20 +107,6 @@ export default function Home() {
               </a>
               {' '}
               <Huawei size={16} className="inline-block align-middle" />
-            </li>
-            <li className="text-sm md:text-base">
-              Data Engineer @{' '}
-              <a
-                href="https://cohere.com/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className={`underline decoration-1 underline-offset-2 transition-opacity duration-300 ${colors.linkHover}`}
-                style={{ color: colors.text }}
-              >
-                Cohere
-              </a>
-              {' '}
-              <Cohere size={16} className="inline-block align-middle" />
             </li>
             <li className="text-sm md:text-base">
               Software Engineer @{' '}
