@@ -4,7 +4,7 @@ import { useState } from 'react';
 import Image from 'next/image';
 import DitherPattern from '@/components/DitherPattern';
 import ThemeSwitcher, { Theme } from '@/components/ThemeSwitcher';
-import { Cerebras, Huawei } from '@lobehub/icons';
+import { Cerebras, Huawei, Google } from '@lobehub/icons';
 
 export default function Home() {
   const [theme, setTheme] = useState<Theme>('dark');
@@ -81,6 +81,20 @@ export default function Home() {
           <h2 className="text-sm md:text-base font-semibold mb-2 opacity-70 uppercase tracking-wide">Experience</h2>
           <ul className="list-disc list-inside space-y-1.5 opacity-90">
             <li className="text-sm md:text-base">
+              Incoming Software Engineer @{' '}
+              <a
+                href="https://www.google.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className={`underline decoration-1 underline-offset-2 transition-opacity duration-300 ${colors.linkHover}`}
+                style={{ color: colors.text }}
+              >
+                Google
+              </a>
+              {' '}
+              <Google size={16} className="inline-block align-middle" />
+            </li>
+            <li className="text-sm md:text-base">
               Machine Learning Engineer @{' '}
               <a
                 href="https://www.cerebras.ai/"
@@ -138,6 +152,18 @@ export default function Home() {
         <div className="mb-6">
           <h2 className="text-sm md:text-base font-semibold mb-2 opacity-70 uppercase tracking-wide">Research</h2>
           <ul className="list-disc list-inside space-y-1.5 opacity-90">
+            <li className="text-sm md:text-base">
+              Researcher @ JetBrains - {' '}
+              <a
+                href="https://se.ewi.tudelft.nl/ai4se/people.html"
+                target="_blank"
+                rel="noopener noreferrer"
+                className={`underline decoration-1 underline-offset-2 transition-opacity duration-300 ${colors.linkHover}`}
+                style={{ color: colors.text }}
+              >
+                Model Routing for Cheaper Code Generation
+              </a>
+            </li>
             <li className="text-sm md:text-base">
               Researcher @ Vector Institute - {' '}
               <a
