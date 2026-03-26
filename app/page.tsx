@@ -95,7 +95,7 @@ export default function Home() {
               <Google size={16} className="inline-block align-middle" />
             </li>
             <li className="text-sm md:text-base">
-              Machine Learning Engineer @{' '}
+              ML Engineer @{' '}
               <a
                 href="https://www.cerebras.ai/"
                 target="_blank"
@@ -135,7 +135,7 @@ export default function Home() {
               </a>
             </li>
             <li className="text-sm md:text-base">
-              Data Scientist @{' '}
+            Software Engineer @{' '}
               <a
                 href="https://www.silverberry.ai/"
                 target="_blank"
