@@ -127,7 +127,7 @@ export default function Home() {
           <h2 className="text-sm md:text-base font-semibold mb-2 opacity-70 uppercase tracking-wide">Research</h2>
           <ul className="list-disc list-inside space-y-1.5 opacity-90">
             <li className="text-sm md:text-base">
-              Research Intern @ JetBrains - {' '}
+              Researcher @ JetBrains - {' '}
               <a
                 href="https://se.ewi.tudelft.nl/ai4se/people.html"
                 target="_blank"
@@ -139,7 +139,7 @@ export default function Home() {
               </a>
             </li>
             <li className="text-sm md:text-base">
-              Research Intern @ Vector Institute - {' '}
+              Researcher @ Vector Institute - {' '}
               <a
                 href="https://aclanthology.org/2025.emnlp-demos.68/"
                 target="_blank"
@@ -151,7 +151,7 @@ export default function Home() {
               </a>
             </li>
             <li className="text-sm md:text-base">
-              Research Intern @ Pingoo AI - {' '}
+              Researcher @ Pingoo AI - {' '}
               <a
                 href="https://journals.sagepub.com/doi/abs/10.1177/19322968241253568"
                 target="_blank"
