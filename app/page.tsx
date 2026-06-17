@@ -81,21 +81,7 @@ export default function Home() {
           <h2 className="text-sm md:text-base font-semibold mb-2 opacity-70 uppercase tracking-wide">Experience</h2>
           <ul className="list-disc list-inside space-y-1.5 opacity-90">
             <li className="text-sm md:text-base">
-              Incoming Software Engineer @{' '}
-              <a
-                href="https://www.google.com/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className={`underline decoration-1 underline-offset-2 transition-opacity duration-300 ${colors.linkHover}`}
-                style={{ color: colors.text }}
-              >
-                Google
-              </a>
-              {' '}
-              <Google size={16} className="inline-block align-middle" />
-            </li>
-            <li className="text-sm md:text-base">
-              Machine Learning Engineer @{' '}
+              MLE Intern @{' '}
               <a
                 href="https://www.cerebras.ai/"
                 target="_blank"
@@ -109,7 +95,7 @@ export default function Home() {
               <Cerebras size={20} className="inline-block align-middle" />
             </li>
             <li className="text-sm md:text-base">
-              Compiler Engineer @{' '}
+              SWE Intern @{' '}
               <a
                 href="https://www.huawei.com/ca/"
                 target="_blank"
@@ -123,7 +109,7 @@ export default function Home() {
               <Huawei size={16} className="inline-block align-middle" />
             </li>
             <li className="text-sm md:text-base">
-            Software Engineer @{' '}
+            SWE Intern @{' '}
               <a
                 href="https://www.silverberry.ai/"
                 target="_blank"
@@ -141,7 +127,7 @@ export default function Home() {
           <h2 className="text-sm md:text-base font-semibold mb-2 opacity-70 uppercase tracking-wide">Research</h2>
           <ul className="list-disc list-inside space-y-1.5 opacity-90">
             <li className="text-sm md:text-base">
-              Researcher @ JetBrains - {' '}
+              Research Intern @ JetBrains - {' '}
               <a
                 href="https://se.ewi.tudelft.nl/ai4se/people.html"
                 target="_blank"
@@ -153,7 +139,7 @@ export default function Home() {
               </a>
             </li>
             <li className="text-sm md:text-base">
-              Researcher @ Vector Institute - {' '}
+              Research Intern @ Vector Institute - {' '}
               <a
                 href="https://aclanthology.org/2025.emnlp-demos.68/"
                 target="_blank"
@@ -165,7 +151,7 @@ export default function Home() {
               </a>
             </li>
             <li className="text-sm md:text-base">
-              Researcher @ Pingoo AI - {' '}
+              Research Intern @ Pingoo AI - {' '}
               <a
                 href="https://journals.sagepub.com/doi/abs/10.1177/19322968241253568"
                 target="_blank"
