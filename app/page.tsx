@@ -72,7 +72,7 @@ export default function Home() {
               Ilia Alenabi
             </h1>
             <p className="text-base md:text-lg leading-relaxed mt-2 font-sans opacity-80">
-              CS @ UW
+              CS @ UWaterloo
             </p>
           </div>
         </div>
