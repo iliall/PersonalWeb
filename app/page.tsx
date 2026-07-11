@@ -81,7 +81,7 @@ export default function Home() {
           <h2 className="text-sm md:text-base font-semibold mb-2 opacity-70 uppercase tracking-wide">Experience</h2>
           <ul className="list-disc list-inside space-y-1.5 opacity-90">
             <li className="text-sm md:text-base">
-              Machine Learning Engineer @{' '}
+              Machine Learning Engineer Intern @{' '}
               <a
                 href="https://www.cerebras.ai/"
                 target="_blank"
@@ -95,7 +95,7 @@ export default function Home() {
               <Cerebras size={20} className="inline-block align-middle" />
             </li>
             <li className="text-sm md:text-base">
-              Software Engineer @{' '}
+              Software Engineer Intern @{' '}
               <a
                 href="https://www.huawei.com/ca/"
                 target="_blank"
@@ -109,7 +109,7 @@ export default function Home() {
               <Huawei size={16} className="inline-block align-middle" />
             </li>
             <li className="text-sm md:text-base">
-              Software Engineer @{' '}
+              Software Engineer Intern @{' '}
               <a
                 href="https://www.questrade.com/"
                 target="_blank"
@@ -121,7 +121,7 @@ export default function Home() {
               </a>
             </li>
             <li className="text-sm md:text-base">
-              Software Engineer @{' '}
+              Software Engineer Intern @{' '}
               <a
                 href="https://www.silverberry.ai/"
                 target="_blank"
