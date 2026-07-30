@@ -151,7 +151,7 @@ export default function Home() {
               </a>
             </li>
             <li className="text-sm md:text-base">
-              Researcher @ Vector Institute - {' '}
+              Researcher @ University of Waterloo - {' '}
               <a
                 href="https://aclanthology.org/2025.emnlp-demos.68/"
                 target="_blank"
