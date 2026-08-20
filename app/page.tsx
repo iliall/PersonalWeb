@@ -81,6 +81,37 @@ export default function Home() {
           <h2 className="text-sm md:text-base font-semibold mb-2 opacity-70 uppercase tracking-wide">Experience</h2>
           <ul className="list-disc list-inside space-y-1.5 opacity-90">
             <li className="text-sm md:text-base">
+              Software Engineer Intern @{' '}
+              <a
+                href="https://www.warp.dev/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className={`underline decoration-1 underline-offset-2 transition-opacity duration-300 ${colors.linkHover}`}
+                style={{ color: colors.text }}
+              >
+                Warp
+              </a>
+              {' '}
+              <span
+                role="img"
+                aria-label="Warp"
+                className="inline-block align-middle"
+                style={{
+                  width: '22px',
+                  height: '18px',
+                  backgroundColor: 'currentColor',
+                  WebkitMaskImage: 'url(/warp-mask.png)',
+                  maskImage: 'url(/warp-mask.png)',
+                  WebkitMaskSize: 'contain',
+                  maskSize: 'contain',
+                  WebkitMaskRepeat: 'no-repeat',
+                  maskRepeat: 'no-repeat',
+                  WebkitMaskPosition: 'center',
+                  maskPosition: 'center',
+                }}
+              />
+            </li>
+            <li className="text-sm md:text-base">
               Machine Learning Engineer Intern @{' '}
               <a
                 href="https://www.cerebras.ai/"
